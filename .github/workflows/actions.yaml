@@ -11,5 +11,5 @@ jobs:
         run: mvn clean package
       - name: run shell script
         run: |
-          chmod +x dummy.sh
-          ./dummy.sh
+          chmod +x setenv.sh
+          ./setenv.sh
