@@ -1,0 +1,10 @@
+name: varibalke checking
+on:
+  workflow_dispatch: 
+jobs:
+  var:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check the vsr and sec
+        run: echo "my app name is : $myapp"
+        
