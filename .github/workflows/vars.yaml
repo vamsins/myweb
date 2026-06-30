@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Check the variable
-        run: echo "My app name is: ${{ vars.MYAPP }}"
+        run: echo "My app name is: "
