@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check the vsr and sec
-        run: echo "my app name is : $myapp"
+        run: echo "my app name is : $MYAPP"
         
