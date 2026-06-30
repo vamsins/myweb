@@ -1,9 +1,12 @@
-name: varibalke checking
+name: variable checking
+
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
+
 jobs:
   var:
     runs-on: ubuntu-latest
+
     steps:
-      - name: check the vsr and sec
-        run: echo "my app name is : ${{ vars.MYAPP }}"
+      - name: Check the variable
+        run: echo "My app name is: ${{ vars.MYAPP }}"
